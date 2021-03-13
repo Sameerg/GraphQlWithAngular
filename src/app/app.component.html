@@ -1,0 +1,16 @@
+<h1>GraphQl Demo using Apollo</h1>
+<div class="header">
+  <span>Mission Name</span>
+  <span>Launch Date</span>
+  <span>Launch Success</span>
+  <span>Launch Site</span>
+</div>
+<hr />
+<div *ngFor="let launch of data?.launchesPast">
+  <span>{{launch.mission_name}} </span>
+  <span>{{launch.launch_date_local}} </span>
+  <span>{{launch.launch_success}} </span>
+  <span>{{launch.launch_site.site_name}} </span>
+</div>
+<div *ngIf="!data">Loading...</div>
+<hr />

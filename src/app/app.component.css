@@ -1,0 +1,16 @@
+div {
+  display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+.header {
+  font-size: large;
+}
+
+span {
+  flex: 1;
+  padding-top: 10px;
+}
