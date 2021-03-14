@@ -1,6 +1,6 @@
 # GraphQlDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This is the demo project in which Apollo is used to implement GraphQl in Angular. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
 
